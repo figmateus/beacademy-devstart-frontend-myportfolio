@@ -122,7 +122,7 @@ header .container nav .menu-social img:hover {
 .s-success .container {
   display: flex;
   align-items: center;
-  gap: 4.4rem;
+  gap: 12rem;
 }
 
 .s-success .container .title-success h2 span {
@@ -224,7 +224,17 @@ header .container nav .menu-social img:hover {
 
 /* Cases */
 .s-cases {
-  padding: 4.5rem 0;
+  padding: 4.5rem 0 10rem;
+}
+
+.s-cases p {
+ 
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.83);
+    margin-top: 2.4rem;
+    margin-left: 20rem;
 }
 
 .s-cases .container {
@@ -253,34 +263,21 @@ header .container nav .menu-social img:hover {
 }
 
 .s-cases .container .cases .case {
-  position: absolute;
-  top: 0;
-  left: 405px;
+  display: flex;
+  width: 100%;
 }
 
-.s-cases .container .cases .case:first-child {
+/* .s-cases .container .cases .case:first-child {
   position: absolute;
   top: 0;
   left: 4px;
-}
-
-.s-cases .container .cases .case:nth-child(2) {
-  position: absolute;
-  top: -20px;
-  left: 315px;
-  z-index: 1;
-}
-
-.s-cases .container .cases .case:last-child {
-  position: absolute;
-  top: 0;
-  left: 700px;
-}
-
+} */
 /* Contact */
 
 .s-contact {
   padding-bottom: 4rem;
+  background-color: var(--black-color-medium);
+
 }
 
 .s-contact .container {
@@ -296,6 +293,7 @@ header .container nav .menu-social img:hover {
 .s-contact .container .form-contact {
   width: 100%;
   max-width: 48.6rem;
+  padding-top: 2.9rem;
 }
 
 .s-contact .container .form-contact .input-group input[type="text"] {
@@ -322,7 +320,7 @@ header .container nav .menu-social img:hover {
 /*Footer*/
 
 footer {
-  background-color: var(--black-color-medium);
+  background-color: var(--black-color);
 }
 
 footer .container {
